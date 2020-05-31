@@ -1,1 +1,3 @@
-BlazorGrpc
+# BlazorGrpc
+
+Tests GRPC for a Blazor project.
