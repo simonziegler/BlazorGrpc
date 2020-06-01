@@ -1,0 +1,15 @@
+﻿syntax = "proto3";
+option csharp_namespace = "GrpcColleagues";
+package colleague;
+
+service ColleagueSearch {
+  rpc FetchColleague (ColleagueRequest) returns (ColleagueReply);
+}
+
+message ColleagueRequest {
+  string id = 1;
+}
+
+message ColleagueReply {
+  string person = 1;
+}
